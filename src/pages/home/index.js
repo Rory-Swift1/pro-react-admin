@@ -14,7 +14,7 @@ const Home = () => {
         <TypedText>Cool! Hi, React & Ant Design!</TypedText>
       </h2>
       <h3 className={styles.spotLight} data-spotlight={`React version: ${version}`}>
-        React version: {version}
+        React version: {version}, hello welcome to here!
       </h3>
       <Button type="primary" onClick={redirectToNgrok}>
         Hi, Ngrok!
